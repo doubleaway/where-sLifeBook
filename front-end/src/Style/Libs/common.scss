@@ -12,6 +12,12 @@ html {
     color: #222;
 }
 
+//common
+.axent {
+    font-weight: 900 !important;
+    font-size: 1.25em !important;
+}
+
 //menu
 header {
     width: 100%;
@@ -27,17 +33,35 @@ header {
         box-sizing: border-box;
 
         li {
-            margin-right: 10px;
-            font-size: 1.15rem;
+            margin-right: 20px;
+            font-size: 1.45rem;
 
             &:hover {
                 cursor: pointer;
             }
         }
+
+        &.subMenu {
+            padding: {
+                top: 10px;
+                bottom: 10px;
+            }
+
+            background-color: $darkColor;
+            color: #fff;
+
+            li {
+                font-size: 0.8rem;
+            }
+        }
+
+
     }
 
     .logo {
         position: absolute;
+        top: 50%;
+        margin-top: -14px;
         left: calc((100% - 1200px) / 2);
         font-family: 'Protest Guerrilla', sans-serif;
         font-size: 1.75rem;

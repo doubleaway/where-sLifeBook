@@ -145,6 +145,11 @@ html {
   color: #222;
 }
 
+.axent {
+  font-weight: 900 !important;
+  font-size: 1.25em !important;
+}
+
 header {
   width: 100%;
 }
@@ -159,14 +164,25 @@ header ul {
   box-sizing: border-box;
 }
 header ul li {
-  margin-right: 10px;
-  font-size: 1.15rem;
+  margin-right: 20px;
+  font-size: 1.45rem;
 }
 header ul li:hover {
   cursor: pointer;
 }
+header ul.subMenu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #754F44;
+  color: #fff;
+}
+header ul.subMenu li {
+  font-size: 0.8rem;
+}
 header .logo {
   position: absolute;
+  top: 50%;
+  margin-top: -14px;
   left: calc((100% - 1200px) / 2);
   font-family: "Protest Guerrilla", sans-serif;
   font-size: 1.75rem;
