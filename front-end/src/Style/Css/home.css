@@ -37,5 +37,16 @@
   font-family: "Protest Guerrilla", sans-serif;
   letter-spacing: 13px;
 }
+.homeSec .item_1 {
+  height: 100px;
+  text-align: center;
+}
+.homeSec .item_1 h3 {
+  line-height: 100px;
+  width: 100px;
+  height: 100%;
+  background-color: aqua;
+  display: inline-block;
+}
 
 /*# sourceMappingURL=home.css.map */
